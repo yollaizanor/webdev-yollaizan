@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/2e1c1ac6a5.js" crossorigin="anonymous"></script>
+    <title>Heritage Town Museum</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h2 class="nav-title">
+                <a href="index.html">
+                    Heritage Town Museum
+                </a>
+            </h2>
+            <ul class="menu-list">
+                <li>
+                    <a href="index.html" class="nav-menu-item">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="exhibits.html" class="nav-menu-item">
+                        Exhibits
+                    </a>
+                </li>
+                <li>
+                    <a href="historical-blog.html" class="nav-menu-item">
+                        Historical Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="about-us.html" class="nav-menu-item">
+                        About Us
+                    </a>
+                </li>
+                <li>
+                    <a href="plan-your-visit.html" class="button">
+                        Plan Your Visit
+                    </a>
+                </li>
+            </ul>
+            <span class="hamburger-menu-container"><i class="fas fa-bars hamburger-menu"></i></span>
+        </nav>
+        <!-- mobile navigation drawer -->
+        <nav class="mobile-navigation-drawer">
+            <section class="mobile-menu-container">
+                <ul class="mobile-menu-list">
+                    <li>
+                        <a href="index.html" class="mobile-menu-list-item">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="exhibits.html" class="mobile-menu-list-item">
+                            Exhibits
+                        </a>
+                    </li>
+                    <li>
+                        <a href="historical-blog.html" class="mobile-menu-list-item">
+                            Historical Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about-us.html" class="mobile-menu-list-item">
+                            About Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="plan-your-visit.html" class="mobile-menu-list-item mobile-selected">
+                            Plan Your Visit
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+        <!-- mobile navigation drawer -->
+    </header>
+    <main>
+        <section class="home-section-container">
+            <p align="center">
+                We collect your name and contact details to provide confirmation of your visit, send updates about
+                events or changes, and improve your experience. Your data will be kept safe and won't be shared without
+                permission.
+            </p>
+            <section class="home-content-container">
+                <form id="my-form">
+                    <input type="text" placeholder="First Name" class="text-field" id="first-name" />
+                    <input type="text" placeholder="Last Name" class="text-field" id="last-name" />
+                    <input type="email" placeholder="Email (optional)" class="text-field" id="email" />
+                    <label for="agree" class="checkbox-field">
+                        <input type="checkbox" id="agree" />
+                        I consent to the collection and use of my information
+                    </label>
+                    <section class="home-button-container">
+                        <button type="submit" class="button submit-button">Submit</button>
+                    </section>
+                    <p align="center">
+                        By signing up, you agree of our Terms of Service and Privacy Policy.
+                    </p>
+                </form>
+                <section class="home-article-container">
+                    <article class="article-container">
+                        <h2 class="text-header">Hours of Operation</h2>
+                        <ul class="home-article-list">
+                            <li>
+                                <p align="justify">
+                                    Monday to Friday: 9:00 AM – 5:00 PM
+                                </p>
+                            </li>
+                            <li>
+                                <p align="justify">
+                                    Saturday and Sunday: 10:00 AM – 6:00 PM
+                                </p>
+                            </li>
+                            <li>
+                                <p align="justify">
+                                    Public Holidays: 10:00 AM – 4:00 PM
+                                </p>
+                            </li>
+                            <li>
+                                <p align="justify">
+                                    Closed: Christmas Day, New Year’s Day, and Good Friday
+                                </p>
+                            </li>
+
+                        </ul>
+                    </article>
+                    <article class="article-container">
+                        <h2 class="text-header">Rules</h2>
+                        <ul class="home-article-list">
+                            <li>
+                                <p align="justify">
+                                    Do not touch displays or artifacts unless allowed
+                                </p>
+                            </li>
+                            <li>
+                                <p align="justify">
+                                    Photos without flash are welcome unless signs say otherwise.
+                                </p>
+                            </li>
+                            <li>
+                                <p align="justify">
+                                    Enjoy snacks in the café only, not in exhibit areas.
+                                </p>
+                            </li>
+                            <li>
+                                <p align="justify">
+                                    Store large bags in the cloakroom for safety.
+                                </p>
+                            </li>
+                            <li>
+                                <p align="justify">
+                                    Children must stay with an adult at all times.
+                                </p>
+                            </li>
+                        </ul>
+                    </article>
+                    <p><b class="text-header">Thank you for helping us protect the museum and its collections!</b></p>
+                </section>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-section-container">
+            <section class="footer-information-container">
+                <section>
+                    <h4 class="text-header footer-header-text">Connect with us</h4>
+                    <a href="https://www.facebook.com/profile.php?id=61570409099489" target="_blank">
+                        <i class="fab fa-facebook footer-icon"></i>
+                    </a>
+                </section>
+                <section>
+                    <h4 class="text-header footer-header-text">Contact us</h4>
+                    <section class="footer-information-container-secion-1">
+                        <section class="footer-label-with-icon">
+                            <i class="fas fa-phone footer-icon"></i>
+                            <p>04-0558-2140</p>
+                        </section>
+                        <section class="footer-label-with-icon">
+                            <i class="fas fa-envelope footer-icon"></i>
+                            <p>heritagetownmusuem@gmail.com</p>
+                        </section>
+                    </section>
+                </section>
+                <section>
+                    <h4 class="text-header footer-header-text">Find us</h4>
+                    <section class="footer-label-with-icon">
+                        <i class="fas fa-map-marker-alt footer-icon"></i>
+                        <p>Phillip St, Sydney NSW 2000</p>
+                    </section>
+                </section>
+            </section>
+            <section class="footer-copyright-container">
+                <p>
+                    © 2024 Heritage Town Museum
+                </p>
+            </section>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

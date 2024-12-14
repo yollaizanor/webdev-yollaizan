@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/2e1c1ac6a5.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Heritage Town Museum</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h2 class="nav-title">
+                <a href="index.html">
+                    Heritage Town Museum
+                </a>
+            </h2>
+            <ul class="menu-list">
+                <li>
+                    <a href="index.html" class="nav-menu-item nav-home selected">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="exhibits.html" class="nav-menu-item">
+                        Exhibits
+                    </a>
+                </li>
+                <li>
+                    <a href="historical-blog.html" class="nav-menu-item">
+                        Historical Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="about-us.html" class="nav-menu-item">
+                        About Us
+                    </a>
+                </li>
+                <li>
+                    <a href="plan-your-visit.html" class="button">
+                        Plan Your Visit
+                    </a>
+                </li>
+            </ul>
+            <span class="hamburger-menu-container"><i class="fas fa-bars hamburger-menu"></i></span>
+        </nav>
+        <!-- mobile navigation drawer -->
+        <nav class="mobile-navigation-drawer">
+            <section class="mobile-menu-container">
+                <ul class="mobile-menu-list">
+                    <li>
+                        <a href="index.html" class="mobile-menu-list-item mobile-selected">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="exhibits.html" class="mobile-menu-list-item">
+                            Exhibits
+                        </a>
+                    </li>
+                    <li>
+                        <a href="historical-blog.html" class="mobile-menu-list-item">
+                            Historical Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about-us.html" class="mobile-menu-list-item">
+                            About Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="plan-your-visit.html" class="mobile-menu-list-item">
+                            Plan Your Visit
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+        <!-- mobile navigation drawer -->
+    </header>
+    <main class="plan-your-visit-main-container">
+
+        <!-- start of image thumbnail -->
+        <section class="image-viewer" id="image-viewer">
+            <i class="fas fa-times close"></i>
+            <img id="large-image" src="./assets/exhebit/exhibit-1.jpg" alt=" Large View">
+        </section>
+        <!-- start of image thumbnail -->
+
+        <section class="slider-outer">
+            <section class="slider-inner">
+                <section class="active slider-image-container">
+                    <div class="slider-image-background">&nbsp;</div>
+                    <p class="slider-text" align="center">
+                        <b>
+                            <i>
+                                Preserving the past <br /> Celebrating our heritage
+                            </i>
+                        </b>
+                    </p>
+                    <img src="./assets/slider/slider-1.jpg" alt="museum-image1" class="image slider-image" />
+                </section>
+                <section class="slider-image-container">
+                    <div class="slider-image-background">&nbsp;</div>
+                    <img src="./assets/slider/slider-2.jpg" alt="museum-image2" class="image slider-image" />
+                    <a href="plan-your-visit.html" class="slider-button">
+                        Plan your visit
+                    </a>
+                </section>
+            </section>
+        </section>
+        <section class="slider-prev-next-container">
+            <i class="fas fa-chevron-left prev"></i>
+            <div class="slider-indicator slider-indicator-active">&nbsp;</div>
+            <div class="slider-indicator">&nbsp;</div>
+            <i class="fas fa-chevron-right next"></i>
+        </section>
+        <section>
+
+            <article class="plan-your-visit-article-container">
+                <h2 class="text-header">Feature Exhibit</h2>
+                <article class="plan-your-visit-feature-exhibit-container">
+                    <section style="display: flex;">
+                        <img src="./assets/exhibit/exhibit-2.jpg" alt="three-sisters-blue-mountains"
+                            class="home-feature-exhibit-image thumbnail-image" />
+                        <img src="./assets/exhibit/exhibit-1.jpg" alt="fossil"
+                            class="home-feature-exhibit-image thumbnail-image" />
+                    </section>
+                    <article class="plan-your-visit-paragraph-container">
+                        <i><b>Ancient Wonders of Sydney</b></i>
+                        <p align="justify">
+                            Step back in time and explore the timeless marvels that shaped Sydney long before it became
+                            a bustling metropolis. This exhibit delves into the region’s ancient geological formations,
+                            such as the iconic sandstone cliffs and caves carved over millions of years, alongside
+                            fossils of prehistoric creatures that once roamed the area. Visitors can also discover
+                            remnants of early Aboriginal life, including sacred rock carvings, ceremonial sites, and
+                            hand stencils that provide a glimpse into the traditions of Sydney’s first peoples. These
+                            wonders tell a story of resilience, connection, and deep respect for the land.
+                        </p>
+                        <p align="justify">
+                            Through interactive features, such as virtual cave tours and fossil handling stations,
+                            Ancient Wonders of Sydney offers a hands-on exploration of the city’s natural and cultural
+                            legacy. Visitors can immerse themselves in the artistry of Aboriginal rock carvings and
+                            learn about the ancient megafauna that once thrived in the region. This exhibit reveals the
+                            profound beauty and history embedded in Sydney’s landscapes, inspiring a deeper appreciation
+                            for its ancient origins.
+                        </p>
+                    </article>
+                </article>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-section-container">
+            <section class="footer-information-container">
+                <section>
+                    <h4 class="footer-header-text">Connect with us</h4>
+                    <a href="https://www.facebook.com/profile.php?id=61570409099489" target="_blank">
+                        <i class="fab fa-facebook footer-icon"></i>
+                    </a>
+                </section>
+                <section>
+                    <h4 class="footer-header-text">Contact us</h4>
+                    <section class="footer-information-container-secion-1">
+                        <section class="footer-label-with-icon">
+                            <i class="fas fa-phone footer-icon"></i>
+                            <p>04-0558-2140</p>
+                        </section>
+                        <section class="footer-label-with-icon">
+                            <i class="fas fa-envelope footer-icon"></i>
+                            <p>heritagetownmusuem@gmail.com</p>
+                        </section>
+                    </section>
+                </section>
+                <section>
+                    <h4 class="footer-header-text">Find us</h4>
+                    <section class="footer-label-with-icon">
+                        <i class="fas fa-map-marker-alt footer-icon"></i>
+                        <p>Phillip St, Sydney NSW 2000</p>
+                    </section>
+                </section>
+            </section>
+            <section class="footer-copyright-container">
+                <p>
+                    © 2024 Heritage Town Museum
+                </p>
+            </section>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

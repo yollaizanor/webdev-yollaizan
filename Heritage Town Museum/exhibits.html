@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/2e1c1ac6a5.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Heritage Town Museum</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h2 class="nav-title">
+                <a href="index.html">
+                    Heritage Town Museum
+                </a>
+            </h2>
+            <ul class="menu-list">
+                <li>
+                    <a href="index.html" class="nav-menu-item">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="exhibits.html" class="nav-menu-item selected">
+                        Exhibits
+                    </a>
+                </li>
+                <li>
+                    <a href="historical-blog.html" class="nav-menu-item">
+                        Historical Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="about-us.html" class="nav-menu-item">
+                        About Us
+                    </a>
+                </li>
+                <li>
+                    <a href="plan-your-visit.html" class="button">
+                        Plan Your Visit
+                    </a>
+                </li>
+            </ul>
+            <span class="hamburger-menu-container"><i class="fas fa-bars hamburger-menu"></i></span>
+        </nav>
+        <!-- mobile navigation drawer -->
+        <nav class="mobile-navigation-drawer">
+            <section class="mobile-menu-container">
+                <ul class="mobile-menu-list">
+                    <li>
+                        <a href="index.html" class="mobile-menu-list-item">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="exhibits.html" class="mobile-menu-list-item mobile-selected">
+                            Exhibits
+                        </a>
+                    </li>
+                    <li>
+                        <a href="historical-blog.html" class="mobile-menu-list-item">
+                            Historical Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about-us.html" class="mobile-menu-list-item">
+                            About Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="plan-your-visit.html" class="mobile-menu-list-item">
+                            Plan Your Visit
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+        <!-- mobile navigation drawer -->
+    </header>
+    <main class="main-container">
+
+        <!-- start of image thumbnail -->
+        <section class="image-viewer" id="image-viewer">
+            <i class="fas fa-times close"></i>
+            <img id="large-image" src="./assets/exhebit/exhibit-1.jpg" alt=" Large View">
+        </section>
+        <!-- start of image thumbnail -->
+
+
+        <article class="article-container" style="flex: 1;">
+            <h2 class="text-header">Current exhibit</h2>
+            <i><b>Ancient Wonders of Sydney</b></i>
+            <section class="exhibit-image-container">
+                <img src="./assets/exhibit/exhibit-2.jpg" alt="three-sisters-blue-mountains"
+                    class="exhibit-image thumbnail-image" />
+                <img src="./assets/exhibit/exhibit-1.jpg" alt="mountain-image" class="exhibit-image thumbnail-image" />
+            </section>
+            <p align="justify" class="truncated-text">
+                Step back in time and explore the timeless marvels that shaped Sydney long before it became a bustling
+                metropolis. This exhibit delves into the region’s ancient geological formations, such as the iconic
+                sandstone cliffs and caves carved over millions of years...
+            </p>
+            <p align="justify" class="full-text" style="display: none;">
+                Step back in time and explore the timeless marvels that shaped Sydney long before it became a bustling
+                metropolis. This exhibit delves into the region’s ancient geological formations, such as the iconic
+                sandstone cliffs and caves carved over millions of years, alongside fossils of prehistoric creatures
+                that once roamed the area. Visitors can also discover remnants of early Aboriginal life, including
+                sacred rock carvings, ceremonial sites, and hand stencils that provide a glimpse into the traditions of
+                Sydney’s first peoples. These wonders tell a story of resilience, connection, and deep respect for the
+                land.
+            </p>
+            <p align="justify" class="more-content" style="display: none;">
+                Through interactive features, such as virtual cave tours and fossil handling stations, <i>Ancient
+                    Wonders of Sydney</i> offers a hands-on exploration of the city’s natural and cultural legacy.
+                Visitors can immerse themselves in the artistry of Aboriginal rock carvings and learn about the ancient
+                megafauna that once thrived in the region. This exhibit reveals the profound beauty and history embedded
+                in Sydney’s landscapes, inspiring a deeper appreciation for its ancient origins.
+            </p>
+            <button class="read-more-btn">Read More</button>
+        </article>
+
+        <article class="article-container" style="flex: 1;">
+            <article class="article-container">
+                <h2 class="text-header">Upcoming exhibit</h2>
+                <i><b>Futures of the Past: Visions of Tomorrow from Yesterday</b></i>
+                <section class="exhibit-image-container">
+                    <img src="./assets/exhibit/exhibit-3.jpg" alt="opera-house" class="exhibit-image thumbnail-image" />
+                    <img src="./assets/exhibit/exhibit-4.jpg" alt="city" class="exhibit-image thumbnail-image" />
+                </section>
+                <p align="justify" class="truncated-text">
+                    This exhibit delves into how past generations envisioned the future, showcasing their innovative
+                    designs, technological prototypes, and cultural predictions. Visitors will explore unrealized plans
+                    for Sydney’s skyline, such as alternative designs for the Harbour Bridge and Opera House, alongside
+                    vintage advertisements and media...
+                </p>
+                <p align="justify" class="full-text" style="display: none;">
+                    This exhibit delves into how past generations envisioned the future, showcasing their innovative
+                    designs, technological prototypes, and cultural predictions. Visitors will explore unrealized plans
+                    for Sydney’s skyline, such as alternative designs for the Harbour Bridge and Opera House, alongside
+                    vintage advertisements and media that imagined futuristic lifestyles, from flying cars to robot
+                    servants. Through these artifacts, Futures of the Past highlights the creativity and optimism that
+                    shaped Sydney’s development and influenced its present-day identity.
+                </p>
+                <p align="justify" class="more-content" style="display: none;">
+                    Interactive features, such as augmented reality experiences and hands-on model-building stations,
+                    allow visitors to engage with these visionary ideas in dynamic ways. By examining yesterday’s dreams
+                    of tomorrow, the exhibit invites reflection on how imagination and ambition have continuously shaped
+                    Sydney’s evolution—and challenges us to think about the futures we’re designing today.
+                </p>
+                <button class="read-more-btn">Read More</button>
+            </article>
+            <article class="article-container">
+                <h2 class="text-header">Past exhibit</h2>
+                <i><b>Legends Reimagined: Sydney’s Stories Brought to Life</b></i>
+                <section class="exhibit-image-container">
+                    <img src="./assets/exhibit/exhibit-5.jpg" alt="bennelong" class="exhibit-image thumbnail-image" />
+                </section>
+                <p align="justify" class="truncated-text">
+                    This exhibit brings Sydney’s iconic myths, tales, and historical figures to life through modern
+                    artistic and technological interpretations. From Indigenous Dreamtime stories like the creation of
+                    the Three Sisters to colonial-era...
+                </p>
+                <p align="justify" class="full-text" style="display: none;">
+                    This exhibit brings Sydney’s iconic myths, tales, and historical figures to life through modern
+                    artistic and technological interpretations. From Indigenous Dreamtime stories like the creation of
+                    the Three Sisters to colonial-era figures such as Bennelong, visitors can explore how these legends
+                    have evolved and continue to shape Sydney’s identity. The exhibit also delves into urban myths,
+                    haunted sites, and lesser-known cultural tales, offering fresh perspectives on the city’s diverse
+                    heritage.
+                </p>
+                <p align="justify" class="more-content" style="display: none;">
+                    Interactive features, including holographic storytelling and a digital legend creator, allow
+                    visitors to engage directly with Sydney’s past while imagining its future stories. By reinterpreting
+                    these timeless narratives, Legends Reimagined celebrates the enduring power of storytelling in
+                    connecting communities and preserving culture for generations to come.
+                </p>
+                <button class="read-more-btn">Read More</button>
+            </article>
+        </article>
+    </main>
+    <footer>
+        <section class="footer-section-container">
+            <section class="footer-information-container">
+                <section>
+                    <h4 class="text-header footer-header-text">Connect with us</h4>
+                    <a href="https://www.facebook.com/profile.php?id=61570409099489" target="_blank">
+                        <i class="fab fa-facebook footer-icon"></i>
+                    </a>
+                </section>
+                <section>
+                    <h4 class="text-header footer-header-text">Contact us</h4>
+                    <section class="footer-information-container-secion-1">
+                        <section class="footer-label-with-icon">
+                            <i class="fas fa-phone footer-icon"></i>
+                            <p>04-0558-2140</p>
+                        </section>
+                        <section class="footer-label-with-icon">
+                            <i class="fas fa-envelope footer-icon"></i>
+                            <p>heritagetownmusuem@gmail.com</p>
+                        </section>
+                    </section>
+                </section>
+                <section>
+                    <h4 class="text-header footer-header-text">Find us</h4>
+                    <section class="footer-label-with-icon">
+                        <i class="fas fa-map-marker-alt footer-icon"></i>
+                        <p>Phillip St, Sydney NSW 2000</p>
+                    </section>
+                </section>
+            </section>
+            <section class="footer-copyright-container">
+                <p>
+                    © 2024 Heritage Town Museum
+                </p>
+            </section>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
